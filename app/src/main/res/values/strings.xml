@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">car-racing</string>
+    <string name="date">date</string>
+    <string name="action">Action</string>
+    <string name="add">Add</string>
+    <string name="pilot_name">Pilot Name</string>
+    <string name="navigator_name">Navigator Name</string>
+    <string name="team_name">Team Name</string>
+    <string name="car_make">Car Make</string>
+    <string name="request_date">Request Date</string>
+</resources>

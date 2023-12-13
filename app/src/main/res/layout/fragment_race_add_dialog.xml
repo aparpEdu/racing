@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".racing.RaceAddDialogFragment">
+
+    <EditText
+        android:autofillHints="name"
+        android:id="@+id/editTextPilotName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:hint="@string/pilot_name"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:autofillHints="name"
+        android:id="@+id/editTextNavigatorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:hint="@string/navigator_name"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPilotName"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:autofillHints="name"
+        android:id="@+id/editTextTeamName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/team_name"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNavigatorName"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:autofillHints="brand"
+        android:id="@+id/editTextCarMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:hint="@string/car_make"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTeamName"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <Button
+        android:id="@+id/add2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCarMake" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
